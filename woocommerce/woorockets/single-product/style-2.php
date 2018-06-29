@@ -135,6 +135,9 @@ $sidebar = $wr_nitro_options['wc_single_content_before'];
 										?>
 									</div>
 								<?php endif; ?>
+								<div class="open-popup-link" style="margin-bottom: 15px;">
+									<a class="ibutton ibutton__call" title="" href="#cf7__callBack"><i class="fa fa-mobile"></i> Рассчитать по вашим размерам</a>
+								</div>
 								<?php require_once 'single-product-form.php'; ?>
 							</div>
 						</div>
@@ -150,7 +153,7 @@ $sidebar = $wr_nitro_options['wc_single_content_before'];
 								?>
 							</div>
 						<?php endif; ?>
-						<h3>Варианты исполнения</h3>
+						<h3>Материалы</h3>
 							
 								<div>
 								<?php
@@ -158,7 +161,6 @@ $sidebar = $wr_nitro_options['wc_single_content_before'];
 								$the_content_filtered = apply_filters( 'the_content', $my_post_obj->post_content );
 								echo str_replace( ']]>', ']]&gt;', $the_content_filtered );
 								?>
-
 								</div>
 
 					</div><!-- row -->
