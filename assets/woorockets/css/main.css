@@ -108,3 +108,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     background: rgba(0,0,0,0.5);
     color: #fff;
 }
+
+
+.materials .wpb_content_element {
+    margin-bottom: 0;
+}
