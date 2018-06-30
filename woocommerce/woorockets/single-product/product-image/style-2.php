@@ -96,7 +96,8 @@ if ( ! empty( $video_link ) || ! empty( $video_file ) ) {
 	?>
 </div>
 <?php if ( $thumb_position == 'bottom' ) : ?>
-	<div class="woocommerce-product-gallery--with-nav pr">
+	<h3>Примеры исполнения</h3>
+	<div class="woocommerce-product-gallery--with-nav pr" style="margin-bottom: 30px;">
 		<ul class="slides">
 			<?php
 			$attributes = array(

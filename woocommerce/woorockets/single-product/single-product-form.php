@@ -60,7 +60,7 @@
   </div>
   <div class="sfp__item sfp__item_input">
     <input type="text" name="name" placeholder="Ваше имя">
-    <input type="tel" name="phone" placeholder="Контактный телефон*" required>
+    <input type="tel" name="phone" placeholder="Телефон*" required>
   </div>
   <div class="message"></div>
   <div class="sfp__item">

@@ -153,15 +153,16 @@ $sidebar = $wr_nitro_options['wc_single_content_before'];
 								?>
 							</div>
 						<?php endif; ?>
-						<h3>Материалы</h3>
-							
-								<div>
+						<div class="cm-12">
+							<h3>Материалы</h3>
+							<div>
 								<?php
-								$my_post_obj = get_post( 161 );
-								$the_content_filtered = apply_filters( 'the_content', $my_post_obj->post_content );
-								echo str_replace( ']]>', ']]&gt;', $the_content_filtered );
+									$my_post_obj = get_post( 161 );
+									$the_content_filtered = apply_filters( 'the_content', $my_post_obj->post_content );
+									echo str_replace( ']]>', ']]&gt;', $the_content_filtered );
 								?>
-								</div>
+							</div>
+						</div><!-- cm -->
 
 					</div><!-- row -->
 				</div>
