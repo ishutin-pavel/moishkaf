@@ -96,6 +96,18 @@ $sticky = $wr_nitro_options['wc_detail_mobile_sticky_cart'];
 							<div class="product-tabs accordion-tab">
 								<?php wc_get_template( 'single-product/tabs/tabs-accordion.php' ); ?>
 							</div>
+							<div class="open-popup-link" style="margin-bottom: 15px;">
+								<a class="ibutton ibutton__call" title="" href="#cf7__callBack"><i class="fa fa-mobile"></i> Рассчитать по вашим размерам</a>
+							</div>
+							<?php require_once 'single-product-form.php'; ?>
+							<h3>Материалы</h3>
+							<div>
+							<?php
+							$my_post_obj = get_post( 161 );
+							$the_content_filtered = apply_filters( 'the_content', $my_post_obj->post_content );
+							echo str_replace( ']]>', ']]&gt;', $the_content_filtered );
+							?>
+							</div>
 						</div>
 					</div>
 				</div>

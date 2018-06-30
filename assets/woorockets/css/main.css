@@ -57,3 +57,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 .sfp__item input { border: 2px solid #f2b533; }
+
+.material__name {
+  font-weight: bold;
+  text-align: center;
+}
