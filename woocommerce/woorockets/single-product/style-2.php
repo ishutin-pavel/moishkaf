@@ -136,7 +136,7 @@ $sidebar = $wr_nitro_options['wc_single_content_before'];
 									</div>
 								<?php endif; ?>
 								<div class="open-popup-link" style="margin-bottom: 15px;">
-									<a class="ibutton ibutton__call" title="" href="#cf7__callBack"><i class="fa fa-mobile"></i> Рассчитать по вашим размерам</a>
+									<a class="ibutton ibutton__call" style="width:100%;" title="" href="#cf7__callBack"><i class="fa fa-mobile"></i> Рассчитать по вашим размерам</a>
 								</div>
 								<?php require_once 'single-product-form.php'; ?>
 							</div>
