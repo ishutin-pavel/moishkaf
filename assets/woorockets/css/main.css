@@ -73,3 +73,38 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     text-align: center;
   }
 }
+
+.my_arrow {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  display: none;
+}
+
+
+/* Сделать стрелки видимыми */
+.materials .wr-nitro-carousel .owl-nav>.owl-prev,
+.materials .wr-nitro-carousel .owl-nav>.owl-next {
+  opacity: 1;
+}
+
+.materials .wr-nitro-carousel .owl-nav>div {
+  opacity: 1;
+}
+
+.materials .wr-nitro-carousel .owl-nav>.owl-prev,
+.materials .wr-nitro-carousel .owl-nav>.owl-next {
+  visibility: visible;
+}
+
+.materials .wr-nitro-carousel .owl-nav>.owl-next {
+  right: -10px;
+}
+.materials .wr-nitro-carousel .owl-nav>.owl-prev {
+  left: -10px;
+}
+
+.materials .wr-nitro-carousel .owl-nav>div {
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+}

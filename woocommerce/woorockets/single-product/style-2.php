@@ -64,6 +64,7 @@ $sidebar = $wr_nitro_options['wc_single_content_before'];
 			<div id="shop-detail">
 				<div class="container">
 					<div class="row">
+						<img class="my_arrow" src="/images/arrow.png" alt="стрелочка">
 						<div class="w667-12 <?php echo ( $layout != 'no-sidebar' ? ' cm-5' : 'cm-8' ); ?>">
 							<div class="p-single-images pr clear thumb-<?php echo esc_attr( $thumb_position ) ?>">
 								<?php
