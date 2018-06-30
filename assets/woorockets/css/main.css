@@ -82,7 +82,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
   top: -12px;
 }
 
-@media (min-width: 1200px) { .my_arrow {display: none;} }
+@media (max-width: 1200px) { .my_arrow {display: none;} }
 
 /* Сделать стрелки видимыми */
 .materials .wr-nitro-carousel .owl-nav>.owl-prev,
