@@ -43,7 +43,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
   margin: 0 auto;
 }
 
-.material__name-wrap { margin-bottom: 12px; }
+
 .sfp__name {
   display: block;
   margin: 5px auto;
@@ -65,14 +65,11 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 .sfp__item input { border: 2px solid #f2b533; }
 
+.material__name-wrap { margin-bottom: 12px !important; }
+
 .material__name {
   font-weight: bold;
   text-align: center;
-}
-@media (max-width: 768px) {
-  .material__name {
-    text-align: center;
-  }
 }
 
 .my_arrow__wrap { position: relative; }
@@ -85,6 +82,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
   top: -12px;
 }
 
+@media (min-width: 1200px) { .my_arrow {display: none;} }
 
 /* Сделать стрелки видимыми */
 .materials .wr-nitro-carousel .owl-nav>.owl-prev,
