@@ -7,6 +7,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 .sfp__title {
+  text-align: center;
   font-size: 24px;
   text-transform: uppercase;
 }
@@ -27,11 +28,13 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 .materials__item {
   width: 67px;
-  margin-bottom: 10px;
+  margin-bottom: 9px;
   text-align: center;
   margin-right: 10px;
   cursor: pointer;
 }
+
+.sfp__item_input input {width: 48%;}
 
 .message { text-align: center; }
 
@@ -60,8 +63,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 .sfp__item input { border: 2px solid #f2b533; }
-
-
 
 .material__name {
   font-weight: bold;

@@ -64,7 +64,7 @@ $sidebar = $wr_nitro_options['wc_single_content_before'];
 			<div id="shop-detail">
 				<div class="container">
 					<div class="row">
-						<div class="w667-12 <?php echo ( $layout != 'no-sidebar' ? ' cm-5' : 'cm-6' ); ?>">
+						<div class="w667-12 <?php echo ( $layout != 'no-sidebar' ? ' cm-5' : 'cm-8' ); ?>">
 							<div class="p-single-images pr clear thumb-<?php echo esc_attr( $thumb_position ) ?>">
 								<?php
 									/**
@@ -78,7 +78,7 @@ $sidebar = $wr_nitro_options['wc_single_content_before'];
 							</div><!-- .p-single-image -->
 						</div><!-- .cm-5 -->
 
-						<div class="w667-12 <?php echo ( $layout != 'no-sidebar' ? ' cm-7' : 'cm-6' ); ?>">
+						<div class="w667-12 <?php echo ( $layout != 'no-sidebar' ? ' cm-7' : 'cm-4' ); ?>">
 							<div class="p-single-info">
 								<?php
 									// Get page title
@@ -104,7 +104,7 @@ $sidebar = $wr_nitro_options['wc_single_content_before'];
 									 * @hooked woocommerce_template_single_sharing - 50
 									 */
 									 // remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30);
-									do_action( 'woocommerce_single_product_summary' );
+									//do_action( 'woocommerce_single_product_summary' );
 								?>
 
 								<?php

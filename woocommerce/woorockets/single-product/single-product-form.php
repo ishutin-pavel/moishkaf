@@ -1,6 +1,5 @@
 <form action="javascript;" class="sfp__form">
-  <div class="sfp__title">Заказать <? the_title(); ?></div>
-  <div class="sfp__description">Выберите материалы</div>
+  <div class="sfp__title">Рассчитать с учетом выбора материала</div>
   <div class="sfp__materials clear">
     <label class="materials__item" >
       <img class="sfp__img" src="/images/spf-materials/type_01.png" alt="ЛДСП">
@@ -59,11 +58,9 @@
       <input class="sfp__input" name="sfp__material" type="radio" value="Подсказать">
     </label>
   </div>
-  <div class="sfp__item">
+  <div class="sfp__item sfp__item_input">
     <input type="text" name="name" placeholder="Ваше имя">
-  </div>
-  <div class="sfp__item">
-    <input type="tel" name="phone" placeholder="Контактный телефон*">
+    <input type="tel" name="phone" placeholder="Контактный телефон*" required>
   </div>
   <div class="message"></div>
   <div class="sfp__item">
