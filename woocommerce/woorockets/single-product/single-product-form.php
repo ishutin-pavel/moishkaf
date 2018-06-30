@@ -1,6 +1,6 @@
 <form action="javascript;" class="sfp__form">
   <div class="sfp__title">Заказать <? the_title(); ?></div>
-  <div class="sfp__description">Выбирите материалы</div>
+  <div class="sfp__description">Выберите материалы</div>
   <div class="sfp__materials clear">
     <label class="materials__item" >
       <img class="sfp__img" src="/images/spf-materials/type_01.png" alt="ЛДСП">
