@@ -64,7 +64,6 @@ $sidebar = $wr_nitro_options['wc_single_content_before'];
 			<div id="shop-detail">
 				<div class="container">
 					<div class="row">
-						<img class="my_arrow" src="/images/arrow.png" alt="стрелочка">
 						<div class="w667-12 <?php echo ( $layout != 'no-sidebar' ? ' cm-5' : 'cm-8' ); ?>">
 							<div class="p-single-images pr clear thumb-<?php echo esc_attr( $thumb_position ) ?>">
 								<?php
@@ -136,7 +135,8 @@ $sidebar = $wr_nitro_options['wc_single_content_before'];
 										?>
 									</div>
 								<?php endif; ?>
-								<div class="open-popup-link" style="margin-bottom: 15px;">
+								<div class="open-popup-link my_arrow__wrap" style="margin-bottom: 15px;">
+									<img class="my_arrow" src="/images/arrow.png" alt="стрелочка">
 									<a class="ibutton ibutton__call" style="width:100%;" title="" href="#cf7__callBack"><i class="fa fa-mobile"></i> Рассчитать по вашим размерам</a>
 								</div>
 								<?php require_once 'single-product-form.php'; ?>

@@ -43,6 +43,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
   margin: 0 auto;
 }
 
+.material__name-wrap { margin-bottom: 12px; }
 .sfp__name {
   display: block;
   margin: 5px auto;
@@ -74,10 +75,14 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
   }
 }
 
+.my_arrow__wrap { position: relative; }
+
 .my_arrow {
   display: block;
   position: absolute;
   z-index: 2;
+  left: -50px;
+  top: -12px;
 }
 
 
